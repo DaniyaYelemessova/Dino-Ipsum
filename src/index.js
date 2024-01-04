@@ -27,9 +27,9 @@ function getDinoName(){
 function printElement(){
   
   getDinoName().then(function(results){
-    const p = document.createElement("p");
-    p.textContent = `Dino name: ${results[0]}`;
-    document.getElementById("output").appendChild(p);
+
+    document.getElementById("output").textContent  = `Dino name: ${results[0]}`;
+    document.getElementById("output").value = null;
   }).catch(function(error){
     console.error("Error fetching dinosaur name:", error);
     document.getElementById("output").innerText = "Error fetching dinosaur name.";
