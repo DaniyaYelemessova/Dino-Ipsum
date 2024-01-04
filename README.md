@@ -1,4 +1,4 @@
-## <div align="center">Project name</div>
+## <div align="center">Dino Ipsum</div>
 
 #### <div align="center">💻 _Learning project for (..................) (date)_ </div>
 
